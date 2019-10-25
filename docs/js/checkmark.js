@@ -26,7 +26,7 @@ AFRAME.registerComponent('checkmark', {
         matchPercent.textContent = `${90 + Math.floor(Math.random() * 10)}% match.`;
 
         const codeword = document.createElement('h3');
-        codeword.textContent = `Codeword is Rabbit`;
+        codeword.textContent = `Codeword is Greece`;
 
         const fitmsg = document.createElement('h3');
         fitmsg.textContent = "Fit your message to the frame above";

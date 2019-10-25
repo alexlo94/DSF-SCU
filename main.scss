@@ -60,14 +60,15 @@ h1, h2, h3, h4, h5, h6, p {
         height: 15%;
 
         position: relative;
+        display: flex;
+        justify-content: center;
 
         #info-box {
-            width: 100%;
+            width: 90%;
             height: 100%;
 
             position: absolute;
-            bottom: 0;
-            left: 0;
+            bottom: 2rem;
 
             display: flex;
             flex-direction: column;
@@ -75,6 +76,7 @@ h1, h2, h3, h4, h5, h6, p {
             justify-content: center;
 
             background: darken($color:  rgba(0, 83, 155, 0.7), $amount: 10%);
+            border-radius: 1rem;
             color: #ffffff;
         }
     }
